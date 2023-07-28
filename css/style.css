@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-white: rgb(255, 255, 255);
+    --color-orage: rgb(255, 140, 0);
+    --background-color: rgb(29, 0, 55);
+}
+
+body{
+    background-color: var(--background-color);  
+}
+
+.bg-dark{
+    background-color: var(--background-color) !important;
+}
+
+.navbar-brand{
+    color: var(--color-orage);
+}
+
+.nav-link{
+    color: var(--color-white);
+}
