@@ -33,10 +33,6 @@ body{
     color: var(--color-orange);
 }
 
-.row{
-    border: 1px solid black;
-}
-
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #ff702a;
@@ -52,5 +48,9 @@ body{
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #ff702a;
     --bs-btn-disabled-border-color: #ff702a;
+}
+
+.border-bottom{
+    border-bottom: 1px solid orange !important;
 }
 
