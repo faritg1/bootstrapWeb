@@ -55,7 +55,7 @@ body{
 }
 
 .navbar-toggler:hover {
-    color: #ff702a;
+    color: var(--color-orange);
 }
 
 @media (max-width: 768px) {
@@ -63,4 +63,12 @@ body{
         text-align: center;
         background-color: #2c2b47;
     }
+}
+
+.nav-link:hover{
+    color: var(--color-orange);
+}
+
+.navbar-brand:hover{
+    color: var(--color-orange);
 }
